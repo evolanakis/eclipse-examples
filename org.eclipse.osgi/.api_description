@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component name="org.eclipse.osgi_3.7.1.R37x_v20110808-1106" version="1.2">
+    <plugin id="org.eclipse.osgi_3.7.1.R37x_v20110808-1106"/>
+    <package name="org.eclipse.osgi.framework.console" visibility="1">
+        <type name="CommandInterpreter" restrictions="1"/>
+        <type name="ConsoleSession" restrictions="0">
+            <method name="close" restrictions="8" signature="()V"/>
+            <method name="doClose" restrictions="8" signature="()V"/>
+            <method name="getInput" restrictions="8" signature="()Ljava/io/InputStream;"/>
+            <method name="getOutput" restrictions="8" signature="()Ljava/io/OutputStream;"/>
+            <method name="getService" restrictions="8" signature="(Lorg/osgi/framework/Bundle;Lorg/osgi/framework/ServiceRegistration;)Ljava/lang/Object;"/>
+            <method name="ungetService" restrictions="8" signature="(Lorg/osgi/framework/Bundle;Lorg/osgi/framework/ServiceRegistration;Ljava/lang/Object;)V"/>
+        </type>
+    </package>
+    <package name="org.eclipse.osgi.framework.eventmgr" visibility="1">
+        <type name="EventListeners" restrictions="2"/>
+        <type name="EventManager" restrictions="2"/>
+    </package>
+    <package name="org.eclipse.osgi.framework.log" visibility="1">
+        <type name="FrameworkLog" restrictions="1"/>
+        <type name="FrameworkLogEntry" restrictions="2"/>
+    </package>
+    <package name="org.eclipse.osgi.service.datalocation" visibility="1">
+        <type name="Location" restrictions="1"/>
+    </package>
+    <package name="org.eclipse.osgi.service.debug" visibility="1">
+        <type name="DebugOptions" restrictions="3"/>
+        <type name="DebugTrace" restrictions="3"/>
+    </package>
+    <package name="org.eclipse.osgi.service.environment" visibility="1">
+        <type name="Constants" restrictions="3"/>
+        <type name="EnvironmentInfo" restrictions="1"/>
+    </package>
+    <package name="org.eclipse.osgi.service.localization" visibility="1">
+        <type name="BundleLocalization" restrictions="1"/>
+    </package>
+    <package name="org.eclipse.osgi.service.resolver" visibility="1">
+        <type name="BaseDescription" restrictions="1"/>
+        <type name="BundleDelta" restrictions="1"/>
+        <type name="BundleDescription" restrictions="1"/>
+        <type name="BundleSpecification" restrictions="1"/>
+        <type name="ExportPackageDescription" restrictions="1"/>
+        <type name="GenericDescription" restrictions="1"/>
+        <type name="GenericSpecification" restrictions="1"/>
+        <type name="HostSpecification" restrictions="1"/>
+        <type name="ImportPackageSpecification" restrictions="1"/>
+        <type name="NativeCodeDescription" restrictions="1"/>
+        <type name="NativeCodeSpecification" restrictions="1"/>
+        <type name="PlatformAdmin" restrictions="1"/>
+        <type name="ResolverError" restrictions="1"/>
+        <type name="State" restrictions="1"/>
+        <type name="StateDelta" restrictions="1"/>
+        <type name="StateHelper" restrictions="1"/>
+        <type name="StateObjectFactory" restrictions="1"/>
+        <type name="VersionConstraint" restrictions="1"/>
+        <type name="VersionRange" restrictions="2"/>
+    </package>
+    <package name="org.eclipse.osgi.service.runnable" visibility="1">
+        <type name="ApplicationLauncher" restrictions="1"/>
+    </package>
+    <package name="org.eclipse.osgi.signedcontent" visibility="1">
+        <type name="InvalidContentException" restrictions="2"/>
+        <type name="SignedContent" restrictions="1"/>
+        <type name="SignedContentEntry" restrictions="1"/>
+        <type name="SignedContentFactory" restrictions="1"/>
+        <type name="SignerInfo" restrictions="1"/>
+    </package>
+    <package name="org.eclipse.osgi.util" visibility="1">
+        <type name="ManifestElement" restrictions="2"/>
+        <type name="TextProcessor" restrictions="2"/>
+    </package>
+    <package name="org.osgi.framework" visibility="1">
+        <type name="Bundle" restrictions="1"/>
+        <type name="BundleContext" restrictions="1"/>
+        <type name="BundleReference" restrictions="1"/>
+        <type name="Constants" restrictions="1"/>
+        <type name="Filter" restrictions="1"/>
+        <type name="ServiceReference" restrictions="1"/>
+        <type name="ServiceRegistration" restrictions="1"/>
+    </package>
+    <package name="org.osgi.framework.hooks.service" visibility="1">
+        <type name="ListenerHook" restrictions="0"/>
+        <type name="ListenerHook$ListenerInfo" restrictions="1"/>
+    </package>
+    <package name="org.osgi.framework.hooks.weaving" visibility="1">
+        <type name="WovenClass" restrictions="1"/>
+    </package>
+    <package name="org.osgi.framework.launch" visibility="1">
+        <type name="Framework" restrictions="1"/>
+        <type name="FrameworkFactory" restrictions="1"/>
+    </package>
+    <package name="org.osgi.framework.startlevel" visibility="1">
+        <type name="BundleStartLevel" restrictions="1"/>
+        <type name="FrameworkStartLevel" restrictions="1"/>
+    </package>
+    <package name="org.osgi.framework.wiring" visibility="1">
+        <type name="BundleCapability" restrictions="1"/>
+        <type name="BundleRequirement" restrictions="1"/>
+        <type name="BundleRevision" restrictions="1"/>
+        <type name="BundleRevisions" restrictions="1"/>
+        <type name="BundleWire" restrictions="1"/>
+        <type name="BundleWiring" restrictions="1"/>
+        <type name="FrameworkWiring" restrictions="1"/>
+    </package>
+    <package name="org.osgi.service.condpermadmin" visibility="1">
+        <type name="ConditionalPermissionAdmin" restrictions="1"/>
+        <type name="ConditionalPermissionInfo" restrictions="1"/>
+        <type name="ConditionalPermissionUpdate" restrictions="1"/>
+    </package>
+    <package name="org.osgi.service.log" visibility="1">
+        <type name="LogEntry" restrictions="1"/>
+        <type name="LogService" restrictions="1"/>
+    </package>
+    <package name="org.osgi.service.packageadmin" visibility="1">
+        <type name="ExportedPackage" restrictions="1"/>
+        <type name="PackageAdmin" restrictions="1"/>
+        <type name="RequiredBundle" restrictions="1"/>
+    </package>
+    <package name="org.osgi.service.permissionadmin" visibility="1">
+        <type name="PermissionAdmin" restrictions="1"/>
+    </package>
+    <package name="org.osgi.service.startlevel" visibility="1">
+        <type name="StartLevel" restrictions="1"/>
+    </package>
+    <package name="org.osgi.service.url" visibility="1">
+        <type name="URLConstants" restrictions="1"/>
+    </package>
+</component>

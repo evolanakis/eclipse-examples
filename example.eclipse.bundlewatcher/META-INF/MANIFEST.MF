@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Bundle Watcher Example
+Bundle-SymbolicName: example.eclipse.bundlewatcher
+Bundle-Version: 1.0.0
+Bundle-Vendor: EclipseSource
+Fragment-Host: org.eclipse.osgi;bundle-version="3.7.1"
+Bundle-RequiredExecutionEnvironment: OSGi/Minimum-1.0
